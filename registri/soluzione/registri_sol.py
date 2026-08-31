@@ -1,4 +1,4 @@
-# Soluzione all'esercizio n
+# Soluzione all'esercizio TODO
 # Per usarla nella simulazione, copia la funzione "inizializza_registri"
 # nel file registri/registri.py
 

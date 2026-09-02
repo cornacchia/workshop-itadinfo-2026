@@ -11,7 +11,7 @@ Il carattere [spazio] va sostituito con uno spazio " ".
 """
 Puzzle di Parson.
 Il codice sottostante contiene tutte le istruzioni (righe) necessarie alla soluzione.
-L'ordine delle righe è mescolato, sono state rimosse le indentazioni e tutte le istruzioni sono state tutte commentate.
+L'ordine delle righe è mescolato, sono state rimosse le indentazioni e tutte le istruzioni sono state commentate.
 L'obiettivo è ricostruire il corretto ordine delle righe, con le corrette indentazioni (rimuovendo i commenti).
 NON SERVE MODIFICARE IL CODICE, se non per:
 1) togliere i simboli di commento (#)

@@ -4,7 +4,7 @@ from istruzione19 import esegui_19
 
 class TestIstruzione19(unittest.TestCase):
   def test_1 (self):
-    istruzione = '19213120000'
+    istruzione = '19200001312'
     registri = [0,0,0,0,0,0,0,0,0,0]
     memoria = [0 for _ in range(100)]
     indirizzo_istruzione, registri, memoria, output = esegui_19(1, registri, memoria, istruzione)
@@ -15,7 +15,7 @@ class TestIstruzione19(unittest.TestCase):
       registri = [0,0,0,0,0,0,0,0,0,0]
       memoria = [0 for _ in range(100)]
       indirizzo_istruzione, registri, memoria, output = esegui_19(1, registri, memoria, istruzione)
-      self.assertEqual(registri[2], 42, 'Il valore finale contenuto nel registro non  corretto.')
+      self.assertEqual(registri[2], 42000, 'Il valore finale contenuto nel registro non  corretto.')
 
 
 if __name__ == '__main__':

@@ -13,7 +13,7 @@ class TestIstruzione12(unittest.TestCase):
     self.assertEqual(registri[6], 42, 'Il valore finale contenuto nel registro non  corretto.')
 
   def test_2 (self):
-      istruzione = '1263000000'
+      istruzione = '1200000000'
       registri = [0,0,0,0,0,0,0,0,0,0]
       memoria = [0 for _ in range(100)]
       # Indirizzo atteso: 0 + 0 = 0

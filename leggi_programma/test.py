@@ -7,7 +7,7 @@ class TestLeggiProgramma(unittest.TestCase):
     memoria = [0 for i in range(100)]
     leggi_programma_in_memoria('./leggi_programma/materiale_test/programma1.txt', memoria)
     for i in range(1, 6):
-      self.assertEqual(memoria[i-1], 'ISTRUZIONE' + str(i), 'La funzione non ha copiato correttamente una istruzione.')
+      self.assertEqual(memoria[i-1], i, 'La funzione non ha copiato correttamente una istruzione.')
     for i in range(6, len(memoria)):
       self.assertEqual(memoria[i], 0, 'La funzione ha scritto aree di memoria in eccesso.')
 
@@ -15,7 +15,7 @@ class TestLeggiProgramma(unittest.TestCase):
       memoria = [0 for i in range(100)]
       leggi_programma_in_memoria('./leggi_programma/materiale_test/programma2.txt', memoria)
       for i in range(1, 9):
-        self.assertEqual(memoria[i-1], 'ISTRUZIONE' + str(i), 'La funzione non ha copiato correttamente una istruzione.')
+        self.assertEqual(memoria[i-1], i, 'La funzione non ha copiato correttamente una istruzione.')
       for i in range(9, len(memoria)):
         self.assertEqual(memoria[i], 0, 'La funzione ha scritto aree di memoria in eccesso.')
 

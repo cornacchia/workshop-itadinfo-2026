@@ -9,7 +9,7 @@ dscii = None
 def avvia_simulazione ():
   global dscii
 
-  print("=== AVVIO SIMULAZIONE ===\n")
+  print("=== AVVIO SIMULAZIONE ===")
   indirizzo_istruzione = 0
   registri = inizializza_registri()
   memoria = inizializza_memoria(100)

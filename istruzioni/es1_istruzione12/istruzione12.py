@@ -14,4 +14,7 @@ Seguire le indicazioni di chi conduce il laboratorio.
 
 def esegui_12 (indirizzo_istruzione, registri, memoria, istruzione_da_eseguire):
 
+  # codice qui
+
   return indirizzo_istruzione, registri, memoria, (-1, -1)
+

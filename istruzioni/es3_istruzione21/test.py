@@ -4,7 +4,7 @@ from istruzione21 import esegui_21
 
 class TestIstruzione21(unittest.TestCase):
   def test_1 (self):
-    istruzione = '21743000000'
+    istruzione = '2174300000'
     registri = [0,0,0,0,6,0,0,0,0,0]
     # Valore atteso 6 + 3 = 9
     memoria = [0 for _ in range(100)]

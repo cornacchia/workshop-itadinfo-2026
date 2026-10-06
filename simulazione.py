@@ -1,8 +1,8 @@
-from registri.registri import inizializza_registri
-from memoria.memoria import inizializza_memoria
-from leggi_programma.leggi_programma import leggi_programma_in_memoria
-from dscii.dscii import inizializza_dscii
-from istruzioni.esegui_istruzione import esegui_istruzione
+from parte1_es1_registri.registri import inizializza_registri
+from parte1_es2_memoria.memoria import inizializza_memoria
+from parte2_es1_leggi_programma.leggi_programma import leggi_programma_in_memoria
+from parte2_es2_dscii.dscii import inizializza_dscii
+from parte3_istruzioni.esegui_istruzione import esegui_istruzione
 
 dscii = None
 

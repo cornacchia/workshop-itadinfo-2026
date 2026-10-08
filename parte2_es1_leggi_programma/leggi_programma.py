@@ -29,4 +29,4 @@ def leggi_programma_in_memoria (nome_file, memoria):
 # Le righe successive servono per le fasi predict/run
 # Commentarle alla fine dell'esercizio
 memoria = [0 for i in range(100)]
-leggi_programma_in_memoria('./leggi_programma/materiale_test/programma2.txt', memoria)
+leggi_programma_in_memoria('./parte2_es1_leggi_programma/materiale_test/programma2.txt', memoria)
